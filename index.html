@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAVEEN Profile</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        body, html {
+            height: 100%;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .header {
+            background: linear-gradient(to right, #00ff77, #0072ff);
+            color: rgb(34, 39, 192);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .main-content {
+            height: 91vh;
+        }
+
+        .sidebar, .profile-details, .extras, .additional {
+            border: 1px solid #1380bb;
+            background-color: #cbc892;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            padding: 20px;
+        }
+
+        .sidebar li, .extras li, .additional li {
+            list-style-type: none;
+            padding: 8px;
+            background-color: rgb(15, 179, 197);
+            margin-bottom: 5px;
+            color: rgb(3, 25, 12);
+            border-radius: 4px;
+        }
+
+        .sidebar li:hover, .extras li:hover, .additional li:hover {
+            background-color:rgb(27, 138, 235);
+        }
+
+        .profile-img img {
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        iframe {
+            width: 100%;
+            border-radius: 4px;
+        }
+
+        .additional {
+            border: 2px dashed rgb(81, 69, 146);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="header">
+        <h1><i>NAVEEN SK Profile</h1>
+        <p>Welcome to my personal profile page</i></p>
+    </div>
+
+    <!-- Main Content Section with Four Columns Using Bootstrap Grid -->
+    <div class="container-fluid main-content">
+        <div class="row">
+            <!-- Left Sidebar -->
+            <div class="col-md-3 sidebar">
+                <h4>Technologies I Know</h4>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Bootstrap</li>
+                    <li>Python</li>
+                </ul>
+
+                <h4>Projects</h4>
+                <ul>
+                    <li>Portfolio Website</li>
+                    <li>Online Shopping App</li>
+                    <li>Weather Forecast App</li>
+                    <li>Personal Blog</li>
+                </ul>
+            </div>
+
+            <!-- Main Profile Details -->
+            <div class="col-md-6 profile-details">
+                <div class="text-center profile-img">
+                    
+                    <h2>NAVEEN SK</h2>
+                    <p>Software Developer & Tech Enthusiast</p>
+                </div>
+                <p>
+                    I am a passionate software developer specializing in building full-stack applications. I have expertise in front-end technologies such as HTML, CSS, JavaScript, and Bootstrap, along with backend frameworks such as Flask and Django. I am always keen on learning new skills and contributing to open-source projects. My goal is to create dynamic and user-friendly web applications.
+                </p>
+                <p>
+                    In my free time, I enjoy exploring new technologies, working on open-source projects, and improving my coding skills. I believe in continuous learning and sharing knowledge with others.
+                </p>
+            </div>
+
+            <!-- Right Sidebar Section with Extra Content -->
+            <div class="col-md-3">
+                <div class="extras">
+                    <h4>Images & Video</h4>
+                    <div class="mb-3">
+                        <img src="2.jpg" height="100%" widht="100%" alt="Example Image" class="img-fluid">
+                    </div>
+                    <div>
+                        <iframe src="https://www.youtube.com/embed/zqvSlNo9baI?si=Sa0WvgZ5_-9aIeU3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <!-- Additional Section -->
+                <div class="additional">
+                    <h4>Achievements & Certifications</h4>
+                    <ul>
+                        <li>Certified Python Developer</li>
+                        <li>Full-Stack Web Development Course</li>
+                        <li>Data Science & Analytics</li>
+                        <li>JavaScript Advanced Certification</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and Dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html> 
